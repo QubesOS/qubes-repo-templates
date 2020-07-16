@@ -1,0 +1,14 @@
+Source: qubes-repo-templates
+Section: admin
+Priority: extra
+Maintainer: WillyPillow <wp@nerde.pw>
+Standards-Version: 3.9.5
+Homepage: https://www.qubes-os.org
+Vcs-Git: https://github.com/WillyPillow/qubes-repo-templates
+Build-Depends:
+  debhelper,
+  gnupg
+
+Package: qubes-repo-templates
+Architecture: any
+Description: Repository definition for Qubes OS VM template packages.

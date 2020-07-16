@@ -1,0 +1,28 @@
+Name:		qubes-repo-templates
+Version:	@VERSION@
+Release:	1%{?dist}
+Summary:	Repository definition for Qubes OS VM template packages
+BuildArch:  noarch
+
+Group:		System Environment/Base
+License:	GPLv2+
+URL:		https://www.qubes-os.org/
+
+Source0: %{name}-%{version}.tar.gz
+
+%description
+Repository definition for Qubes OS VM template packages.
+
+%prep
+%setup -q
+
+%build
+
+%install
+make -C repos install DESTDIR=$RPM_BUILD_ROOT
+
+%files
+/usr/share/qubes/repo-templates/qubes-templates.repo
+
+%changelog
+@CHANGELOG@
