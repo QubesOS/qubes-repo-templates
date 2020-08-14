@@ -1,3 +1,3 @@
 usr/share/qubes/repo-templates/qubes-templates.repo
-etc/pki/rpm-gpg/RPM-GPG-KEY-qubes-4.1-primary
-etc/pki/rpm-gpg/RPM-GPG-KEY-qubes-4.1-templates-community
+usr/share/qubes/repo-templates/keys/RPM-GPG-KEY-qubes-4.1-primary
+usr/share/qubes/repo-templates/keys/RPM-GPG-KEY-qubes-4.1-templates-community
