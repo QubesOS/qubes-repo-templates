@@ -2,7 +2,7 @@ Source: qubes-repo-templates
 Section: admin
 Priority: extra
 Maintainer: WillyPillow <wp@nerde.pw>
-Standards-Version: 3.9.5
+Standards-Version: 4.4.0.1
 Homepage: https://www.qubes-os.org
 Vcs-Git: https://github.com/WillyPillow/qubes-repo-templates
 Build-Depends:
