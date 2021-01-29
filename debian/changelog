@@ -1,3 +1,10 @@
+qubes-repo-templates (4.1.0-1) unstable; urgency=medium
+
+  [ WillyPillow ]
+  * 
+
+ -- Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>  Fri, 29 Jan 2021 22:23:44 +0100
+
 qubes-repo-templates (4.0.7-1) unstable; urgency=medium
 
   * Initial release.
