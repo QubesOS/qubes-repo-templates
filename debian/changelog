@@ -1,3 +1,9 @@
+qubes-repo-templates (4.1.2-1) unstable; urgency=medium
+
+  * spec: add BR make
+
+ -- Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>  Tue, 18 May 2021 02:27:18 +0200
+
 qubes-repo-templates (4.1.1-1) unstable; urgency=medium
 
   * Move the files into /etc/qubes/repo-templates
