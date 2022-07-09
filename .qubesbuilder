@@ -1,0 +1,11 @@
+host:
+  rpm:
+    build:
+    - rpm_spec/qubes-repo-templates.spec
+vm:
+  rpm:
+    build:
+    - rpm_spec/qubes-repo-templates.spec
+  deb:
+    build:
+    - debian
