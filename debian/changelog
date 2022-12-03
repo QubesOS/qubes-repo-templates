@@ -1,3 +1,15 @@
+qubes-repo-templates (4.2.0-1) unstable; urgency=medium
+
+  [ Frédéric Pierret (fepitre) ]
+  * Drop Travis CI
+  * Add Qubes Builder v2 integration
+  * .qubesbuilder: replace 'spec' by 'build'
+
+  [ Marek Marczykowski-Górecki ]
+  * Add keys for R4.2
+
+ -- Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>  Sat, 03 Dec 2022 16:42:46 +0100
+
 qubes-repo-templates (4.1.2-1) unstable; urgency=medium
 
   * spec: add BR make
