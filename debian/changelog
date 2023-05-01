@@ -1,3 +1,9 @@
+qubes-repo-templates (4.2.1-1) unstable; urgency=medium
+
+  * Update signing key for R4.2 templates community
+
+ -- Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>  Mon, 01 May 2023 12:06:41 +0200
+
 qubes-repo-templates (4.2.0-1) unstable; urgency=medium
 
   [ Frédéric Pierret (fepitre) ]
