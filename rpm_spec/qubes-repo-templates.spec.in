@@ -23,7 +23,7 @@ Repository definition for Qubes OS VM template packages.
 make -C repos install DESTDIR=$RPM_BUILD_ROOT
 
 %files
-/etc/qubes/repo-templates/qubes-templates.repo
+%attr(664, root, qubes) /etc/qubes/repo-templates/qubes-templates.repo
 /etc/qubes/repo-templates/keys/RPM-GPG-KEY-qubes-4.2-primary
 /etc/qubes/repo-templates/keys/RPM-GPG-KEY-qubes-4.2-templates-community
 
