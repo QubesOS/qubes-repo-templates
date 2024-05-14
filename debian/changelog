@@ -1,3 +1,10 @@
+qubes-repo-templates (4.3.0-1) unstable; urgency=medium
+
+  * Add R4.3 keys
+  * ci: add R4.3, drop R4.2 and R4.1
+
+ -- Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>  Wed, 15 May 2024 01:26:26 +0200
+
 qubes-repo-templates (4.2.2-1) unstable; urgency=medium
 
   * Make qubes-templates.repo writable by the user
