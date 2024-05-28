@@ -24,8 +24,6 @@ make -C repos install DESTDIR=$RPM_BUILD_ROOT
 
 %files
 %attr(664, root, qubes) /etc/qubes/repo-templates/qubes-templates.repo
-/etc/qubes/repo-templates/keys/RPM-GPG-KEY-qubes-4.2-primary
-/etc/qubes/repo-templates/keys/RPM-GPG-KEY-qubes-4.2-templates-community
 /etc/qubes/repo-templates/keys/RPM-GPG-KEY-qubes-4.3-primary
 /etc/qubes/repo-templates/keys/RPM-GPG-KEY-qubes-4.3-templates-community
 
