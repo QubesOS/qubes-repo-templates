@@ -1,0 +1,27 @@
+#!/bin/bash
+pkgname=qubes-repo-templates
+pkgver=@VERSION@
+pkgrel=@REL@
+pkgdesc="Repository definition for Qubes OS VM template packages"
+arch=("x86_64")
+url="https://qubes-os.org/"
+license=('GPL')
+depends=()
+makedepends=(make)
+
+_pkgnvr="${pkgname}-${pkgver}-${pkgrel}"
+changelog=debian/changelog
+source=("${_pkgnvr}.tar.gz")
+md5sums=(SKIP)
+
+build() {
+    cd "${_pkgnvr}"
+}
+
+package() {
+    cd "${_pkgnvr}"
+    # shellcheck disable=SC2154
+    make -C repos install DESTDIR="$pkgdir"
+}
+
+# vim:set tabstop=4 shiftwidth=4 softtabstop=4 expandtab:
